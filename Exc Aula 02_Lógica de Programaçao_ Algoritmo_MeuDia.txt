@@ -1,0 +1,23 @@
+Algoritmo_MeuDia
+Inicio Dia
+	Acordar
+	Ler mensagens e emails
+	Escovar os Dentes
+	Tomar café
+	Iniciar Trabalho
+	Parar Trabalho
+	Almoçar
+	Escovar os Dentes
+	Voltar ao Trabalho
+	Finalizar Trabalho
+	Lanchar
+	Tomar Banho
+	Acessar Redes Sociais
+	Estudar
+	Preparar o Jantar
+	Jantar
+	Estudar Inglês
+	Escovar os Dentes
+	Dormir
+Fim do Dia
+	

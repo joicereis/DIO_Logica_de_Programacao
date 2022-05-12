@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Joice"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-16 04:22:50 "/>
+        <attribute name="created" value="Sm9pY2U7TEFQVE9QLTdNNDNMSURBOzIwMjItMDEtMTY7IjA0OjE2OjMwICI7MjY5OQ=="/>
+        <attribute name="edited" value="Sm9pY2U7TEFQVE9QLTdNNDNMSURBOzIwMjItMDEtMTY7IjA0OjIyOjUwICI7MTsyODA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="operando, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ser&#225; apresentado a tabuada do 9.&quot;" newline="True"/>
+            <assign variable="operando" expression="0"/>
+            <assign variable="resultado" expression="0"/>
+            <while expression="operando &lt;=10">
+                <assign variable="resultado" expression="9*operando"/>
+                <output expression="&quot;9 X &quot; &amp;operando &amp; &quot;= &quot; &amp;resultado" newline="True"/>
+                <assign variable="operando" expression="operando+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

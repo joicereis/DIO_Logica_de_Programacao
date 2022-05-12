@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Joice"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-13 11:43:28 "/>
+        <attribute name="created" value="Sm9pY2U7TEFQVE9QLTdNNDNMSURBOzIwMjItMDEtMTM7IjExOjA4OjE1ICI7MjY5OA=="/>
+        <attribute name="edited" value="Sm9pY2U7TEFQVE9QLTdNNDNMSURBOzIwMjItMDEtMTM7IjExOjQzOjI4ICI7ODsyODE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="(n1+n2+n3+n4)/4"/>
+            <output expression="n1" newline="True"/>
+            <output expression="n2" newline="True"/>
+            <output expression="n3" newline="True"/>
+            <output expression="n4" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=6">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
